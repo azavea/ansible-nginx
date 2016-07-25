@@ -3,7 +3,7 @@
   apt_repository: repo=ppa:nginx/{{ nginx_version }} state=present
 
 - name: Install Nginx
-  apt: pkg=nginx state=present
+  apt: pkg=nginx-full state=present
 
 - name: Delete default site
   file: path=/etc/nginx/sites-enabled/default state=absent
