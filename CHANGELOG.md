@@ -1,3 +1,13 @@
+## 0.3.0
+
+- In addition to all of the Nginx modules supported before, add support for the following third-party modules:
+
+  - Auth PAM
+  - DAV Ext
+  - Echo
+  - HTTP Substitution Filter
+  - Upstream Fair Queue
+
 ## 0.2.2
 
 - Disable `server_tokens` setting.
