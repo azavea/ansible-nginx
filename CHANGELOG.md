@@ -1,3 +1,7 @@
+## 0.3.1
+
+- Add correct JavaScript MIME type to `gzip_types`.
+
 ## 0.3.0
 
 - In addition to all of the Nginx modules supported before, add support for the following third-party modules:
