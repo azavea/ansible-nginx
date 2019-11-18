@@ -1,3 +1,7 @@
+## 1.0.0
+
+ - Update ansible syntax to support 2.5+.
+
 ## 0.3.1
 
 - Add correct JavaScript MIME type to `gzip_types`.

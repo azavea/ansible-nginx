@@ -14,7 +14,7 @@
 
 - name: Delete default web root
   file: path=/var/www/html state=absent
-  when: nginx_delete_default_site | bool and delete_default_site | changed
+  when: nginx_delete_default_site | bool and delete_default_site is changed
 
 - name: Check Nginx Upstart service definition exists
   stat: path=/etc/init/nginx.conf
